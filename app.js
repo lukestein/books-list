@@ -33,21 +33,30 @@
       marker.append(link); ending.append(marker); title.append(ending);
     }
     const author = document.createElement('p'); author.className = 'author';
-    const authorButton = document.createElement('button'); authorButton.type = 'button'; authorButton.textContent = book.author;
-    authorButton.setAttribute('aria-label', `Filter books by ${book.author}`);
-    authorButton.addEventListener('click', () => {
-      input.value = book.author; filter();
-      document.querySelector('.toolbar').scrollIntoView({ block: 'start' });
+    const authors = book.authors || [book.author];
+    authors.forEach((name, index) => {
+      if (index) author.append(index === authors.length - 1 ? ' & ' : ', ');
+      const authorButton = document.createElement('button'); authorButton.type = 'button'; authorButton.textContent = name;
+      authorButton.setAttribute('aria-label', `Filter books by ${name}`);
+      authorButton.addEventListener('click', () => {
+        input.value = name; filter();
+        document.querySelector('.toolbar').scrollIntoView({ block: 'start' });
+      });
+      author.append(authorButton);
     });
-    author.append(authorButton);
     li.append(cover, number, title, author);
-    return { li, text: normalize(`${book.title} ${book.author}`) };
+    return { li, reread: Boolean(book.reread), text: normalize(`${book.title} ${book.author} ${authors.join(' ')}`) };
   });
   grid.append(...nodes.slice().reverse().map(n => n.li));
   function filter() {
     const terms = normalize(input.value).split(' ').filter(Boolean);
     let visible = 0;
-    for (const node of nodes) { node.li.hidden = !terms.every(term => node.text.includes(term)); if (!node.li.hidden) visible++; }
+    let visibleReread = false;
+    for (const node of nodes) {
+      node.li.hidden = !terms.every(term => node.text.includes(term));
+      if (!node.li.hidden) { visible++; visibleReread ||= node.reread; }
+    }
+    document.querySelector('#reread-note').hidden = !visibleReread;
     count.textContent = terms.length ? `${visible} of ${books.length} books` : `${books.length} books`;
     clearButton.hidden = input.value.length === 0;
     document.querySelector('#empty').hidden = visible !== 0;

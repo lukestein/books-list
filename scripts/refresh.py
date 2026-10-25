@@ -48,7 +48,7 @@ def main():
     dest=ROOT/'data/books.json'
     old={b['id']:b for b in json.loads(dest.read_text())} if dest.exists() else {}
     for b in books:
-        for k in ('cover','coverSource','coverWork'):
+        for k in ('cover','coverSource','coverWork','authors'):
             if k in old.get(b['id'],{}): b[k]=old[b['id']][k]
     def save():
         dest.write_text(json.dumps(books,ensure_ascii=False,indent=2)+'\n')
