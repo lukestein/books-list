@@ -5,6 +5,7 @@
   const input = document.querySelector('#search');
   const count = document.querySelector('#count');
   const clearButton = document.querySelector('#clear-search');
+  let authorReturn = null;
   const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
   const palette = ['#40564c', '#97543d', '#3d5365', '#807147', '#6d4851', '#575c43'];
   const nodes = books.map((book, i) => {
@@ -39,6 +40,9 @@
       const authorButton = document.createElement('button'); authorButton.type = 'button'; authorButton.textContent = name;
       authorButton.setAttribute('aria-label', `Filter books by ${name}`);
       authorButton.addEventListener('click', () => {
+        if (!normalize(input.value)) {
+          authorReturn = { button: authorButton, offset: authorButton.getBoundingClientRect().top };
+        }
         input.value = name; filter();
         document.querySelector('.toolbar').scrollIntoView({ block: 'start' });
       });
@@ -61,10 +65,25 @@
     clearButton.hidden = input.value.length === 0;
     document.querySelector('#empty').hidden = visible !== 0;
   }
-  input.addEventListener('input', filter);
-  function clearSearch() { input.value = ''; filter(); input.focus({ preventScroll: true }); }
+  input.addEventListener('input', () => {
+    if (!input.value && authorReturn) clearSearch();
+    else filter();
+  });
+  function clearSearch() {
+    const returnTo = authorReturn;
+    authorReturn = null;
+    input.value = ''; filter();
+    if (returnTo) {
+      // Let input editing finish before moving focus and restoring the gallery.
+      requestAnimationFrame(() => {
+        // Follow the original book even if the viewport changed while filtering.
+        returnTo.button.focus({ preventScroll: true });
+        window.scrollBy({ top: returnTo.button.getBoundingClientRect().top - returnTo.offset, behavior: 'instant' });
+      });
+    } else input.focus({ preventScroll: true });
+  }
   clearButton.addEventListener('click', clearSearch);
   document.querySelector('#reset').addEventListener('click', clearSearch);
-  input.addEventListener('keydown', event => { if (event.key === 'Escape') { input.value = ''; filter(); } });
+  input.addEventListener('keydown', event => { if (event.key === 'Escape') { event.preventDefault(); clearSearch(); } });
   filter();
 })();
