@@ -771,7 +771,10 @@
     "id": "61883a2ec6867bae",
     "title": "South of the Border, West of the Sun",
     "author": "Haruki Murakami",
-    "summary": "A jazz club owner in Tokyo is reunited with a mysterious woman from his childhood, forcing him to confront his past."
+    "summary": "A jazz club owner in Tokyo is reunited with a mysterious woman from his childhood, forcing him to confront his past.",
+    "cover": "assets/covers/61883a2ec6867bae.jpg",
+    "coverSource": "Calibre library, book 320, cover.jpg",
+    "coverWork": "urn:uuid:cf3fad74-8f32-487f-8bab-bffcec5a581b"
   },
   {
     "id": "56a811321afdf4e8",
@@ -804,7 +807,10 @@
     "id": "d2facf417190e0aa",
     "title": "The Wind-Up Bird Chronicle",
     "author": "Haruki Murakami",
-    "summary": "A man's search for his missing wife and cat leads him into a surreal underworld beneath the streets of Tokyo."
+    "summary": "A man's search for his missing wife and cat leads him into a surreal underworld beneath the streets of Tokyo.",
+    "cover": "assets/covers/d2facf417190e0aa.jpg",
+    "coverSource": "Calibre library, book 443, cover.jpg",
+    "coverWork": "urn:uuid:d381b21c-0d05-441e-824f-e78e2aed0ec8"
   },
   {
     "id": "f062222ff7b6b5f7",
@@ -1395,7 +1401,10 @@
     "id": "09d53e107817522d",
     "title": "After the Quake",
     "author": "Haruki Murakami",
-    "summary": "A collection of six short stories, all linked by the 1995 Kobe earthquake and its psychological impact on the characters."
+    "summary": "A collection of six short stories, all linked by the 1995 Kobe earthquake and its psychological impact on the characters.",
+    "cover": "assets/covers/09d53e107817522d.jpg",
+    "coverSource": "Calibre library, book 290, cover.jpg",
+    "coverWork": "urn:uuid:aa0f5765-7b8e-43c4-8c5c-2124a9b1a751"
   },
   {
     "id": "2ce9d2508f6fe0d7",
@@ -1503,7 +1512,10 @@
     "id": "c034149bff3d0293",
     "title": "A Wild Sheep Chase",
     "author": "Haruki Murakami",
-    "summary": "An advertising executive is blackmailed into searching for a mysterious sheep with a star on its back in northern Japan."
+    "summary": "An advertising executive is blackmailed into searching for a mysterious sheep with a star on its back in northern Japan.",
+    "cover": "assets/covers/c034149bff3d0293.jpg",
+    "coverSource": "Calibre library, book 437, cover.jpg",
+    "coverWork": "urn:uuid:778fcca7-66a0-41c1-ba40-c007ffcf164b"
   },
   {
     "id": "a64049962f40e2b5",
@@ -1944,7 +1956,10 @@
     "id": "a104436102962f43",
     "title": "Freedom",
     "author": "Jonathan Franzen",
-    "summary": "A sprawling novel following the lives of the Berglund family as they navigate personal desires and social responsibilities."
+    "summary": "A sprawling novel following the lives of the Berglund family as they navigate personal desires and social responsibilities.",
+    "cover": "assets/covers/a104436102962f43.jpg",
+    "coverSource": "Calibre library, book 288, cover.jpg",
+    "coverWork": "urn:uuid:92f46de6-1146-4de5-bbb6-b290c5fa006d"
   },
   {
     "id": "02b89363501ea176",
@@ -2118,7 +2133,10 @@
     "id": "1fa6c751a2921ac9",
     "title": "The Housekeeper and the Professor",
     "author": "Yoko Ogawa",
-    "summary": "A touching novel about the relationship between a brilliant mathematician with a short-term memory and his devoted housekeeper."
+    "summary": "A touching novel about the relationship between a brilliant mathematician with a short-term memory and his devoted housekeeper.",
+    "cover": "assets/covers/1fa6c751a2921ac9.jpg",
+    "coverSource": "Calibre library, book 343, cover.jpg",
+    "coverWork": "urn:uuid:0ce08c6f-7908-46cc-89ba-7b4e5505b515"
   },
   {
     "id": "9c76c1bbff09c3cc",
@@ -2196,7 +2214,10 @@
     "id": "9411b56ba5ce3af6",
     "title": "Anna Karenina",
     "author": "Leo Tolstoy",
-    "summary": "A tragic masterpiece exploring love, betrayal, and social hypocrisy through the lives of several Russian families."
+    "summary": "A tragic masterpiece exploring love, betrayal, and social hypocrisy through the lives of several Russian families.",
+    "cover": "assets/covers/9411b56ba5ce3af6.jpg",
+    "coverSource": "Calibre library, book 576, cover.jpg",
+    "coverWork": "urn:uuid:fffc44dd-61dd-45e7-999c-b00e3eb8f2e8"
   },
   {
     "id": "973eea2699adf4e9",
@@ -2385,10 +2406,13 @@
     "coverWork": "https://openlibrary.org/works/OL15572149W"
   },
   {
-    "id": "17c4e7a83be0b968",
-    "title": "Beyond the Beautiful Forevers",
+    "id": "bb4e3139475da847",
+    "title": "Behind the Beautiful Forevers",
     "author": "Katherine Boo",
-    "summary": "A deeply reported non-fiction account of life and hope in a Mumbai slum, following several interconnected residents."
+    "summary": "A deeply reported non-fiction account of life and hope in a Mumbai slum, following several interconnected residents.",
+    "cover": "assets/covers/17c4e7a83be0b968.jpg",
+    "coverSource": "Calibre library, book 405, cover.jpg",
+    "coverWork": "urn:uuid:746cefe8-ef56-4c57-836c-32a521ad339e"
   },
   {
     "id": "ebe2c0e0afeebf80",
@@ -3726,7 +3750,10 @@
     "id": "e5445889ed34dc7d",
     "title": "The Highest Exam",
     "author": "Ruixue Jia & Hongbin Li",
-    "summary": "An account of how China's gaokao—the nationwide college entrance exam—shapes society and influences education debates."
+    "summary": "An account of how China's gaokao—the nationwide college entrance exam—shapes society and influences education debates.",
+    "cover": "assets/covers/e5445889ed34dc7d.jpg",
+    "coverSource": "Calibre library, book 612, cover.jpg",
+    "coverWork": "urn:uuid:1d349b7f-aba7-440f-a0f0-10605d54bfe8"
   },
   {
     "id": "48fbcfe4ab19e57e",
@@ -3759,7 +3786,10 @@
     "id": "4289908fb5af4807",
     "title": "She Who Remains",
     "author": "Rene Karabash",
-    "summary": "A Bulgarian novel set in a rural Albanian village governed by the ancient Kanun laws, following Bekija's choice to become a sworn virgin and the bloody chain of events that ensues."
+    "summary": "A Bulgarian novel set in a rural Albanian village governed by the ancient Kanun laws, following Bekija's choice to become a sworn virgin and the bloody chain of events that ensues.",
+    "cover": "assets/covers/4289908fb5af4807.jpg",
+    "coverSource": "Calibre library, book 625, cover.jpg",
+    "coverWork": "urn:uuid:8e7a6d80-cc32-4dac-b2d5-1c850317d2d1"
   },
   {
     "id": "4a48457dfe243b49",
@@ -3803,7 +3833,10 @@
     "id": "23e6f7fca88662db",
     "title": "Cool Machine",
     "author": "Colson Whitehead",
-    "summary": "The conclusion to the Harlem trilogy follows furniture dealer and fence Ray Carney and his associate Pepper through crime, family obligations, and a changing 1980s New York."
+    "summary": "The conclusion to the Harlem trilogy follows furniture dealer and fence Ray Carney and his associate Pepper through crime, family obligations, and a changing 1980s New York.",
+    "cover": "assets/covers/23e6f7fca88662db.jpg",
+    "coverSource": "Calibre library, book 634, cover.jpg",
+    "coverWork": "urn:uuid:503a73ac-9006-4556-a228-a49786806b25"
   },
   {
     "id": "08623a6f227537a1",
@@ -3829,7 +3862,10 @@
     "id": "67c201fcabf26262",
     "title": "The Everywhere Millionaire",
     "author": "Owen Zidar & Eric Zwick",
-    "summary": "An examination of how owners of ordinary private businesses build substantial fortunes, and how pass-through firms, tax policy, and political influence shape American wealth."
+    "summary": "An examination of how owners of ordinary private businesses build substantial fortunes, and how pass-through firms, tax policy, and political influence shape American wealth.",
+    "cover": "assets/covers/67c201fcabf26262.jpg",
+    "coverSource": "Calibre library, book 648, cover.jpg",
+    "coverWork": "urn:uuid:d333dee0-a9e0-4b42-9b67-d5b4febea46f"
   },
   {
     "id": "f68c1933d728d922",
@@ -3844,6 +3880,9 @@
     "id": "28d7f07262852230",
     "title": "The Science of Second Chances",
     "author": "Jennifer Doleac",
-    "summary": "An evidence-based examination of which criminal justice policies help people rebuild their lives after incarceration, reduce reoffending, and improve public safety."
+    "summary": "An evidence-based examination of which criminal justice policies help people rebuild their lives after incarceration, reduce reoffending, and improve public safety.",
+    "cover": "assets/covers/28d7f07262852230.jpg",
+    "coverSource": "Calibre library, book 637, cover.jpg",
+    "coverWork": "urn:uuid:3debf02e-55f1-47ee-95d9-b760ce64460d"
   }
 ]
