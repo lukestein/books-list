@@ -15,7 +15,7 @@
     const jacketAuthor = document.createElement('small'); jacketAuthor.textContent = book.author;
     fallback.append(ornament, jacketTitle, jacketAuthor); cover.append(fallback);
     if (book.cover) {
-      const img = document.createElement('img'); img.src = book.cover; img.alt = ''; img.loading = i < 12 ? 'eager' : 'lazy'; img.decoding = 'async'; img.width = 200; img.height = 300;
+      const img = document.createElement('img'); img.src = book.cover; img.alt = ''; img.loading = i >= books.length - 12 ? 'eager' : 'lazy'; img.decoding = 'async'; img.width = 200; img.height = 300;
       img.addEventListener('load', () => { fallback.hidden = true; });
       img.addEventListener('error', () => { img.remove(); fallback.hidden = false; }); cover.append(img);
     }
@@ -31,7 +31,7 @@
     li.append(cover, number, title, author);
     return { li, text: normalize(`${book.title} ${book.author}`) };
   });
-  grid.append(...nodes.map(n => n.li));
+  grid.append(...nodes.slice().reverse().map(n => n.li));
   function filter() {
     const terms = normalize(input.value).split(' ').filter(Boolean);
     let visible = 0;
