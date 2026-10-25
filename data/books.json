@@ -84,7 +84,10 @@
     "id": "df56e5a6b9b76d85",
     "title": "The Curve of Binding Energy",
     "author": "John McPhee",
-    "summary": "A profile of nuclear physicist Theodore Taylor and the alarming ease with which nuclear weapons could be constructed by individuals."
+    "summary": "A profile of nuclear physicist Theodore Taylor and the alarming ease with which nuclear weapons could be constructed by individuals.",
+    "cover": "assets/covers/df56e5a6b9b76d85.jpg",
+    "coverSource": "https://mpd-biblio-covers.imgix.net/9780374515980.jpg?w=400",
+    "coverWork": "https://us.macmillan.com/books/9780374515980/thecurveofbindingenergy/"
   },
   {
     "id": "fd4680309dcc2d06",
@@ -288,7 +291,10 @@
     "id": "e978b09cfd52bb3d",
     "title": "To the End",
     "author": "William Leonard Marshall",
-    "summary": "The final Yellowthread Street mystery set in Hong Kong just before the 1997 handover, featuring Chief Feiffer and his team solving bizarre crimes in a changing city."
+    "summary": "The final Yellowthread Street mystery set in Hong Kong just before the 1997 handover, featuring Chief Feiffer and his team solving bizarre crimes in a changing city.",
+    "cover": "assets/covers/e978b09cfd52bb3d.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/691834-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL2725180W"
   },
   {
     "id": "e44687098716162b",
@@ -491,7 +497,7 @@
     "author": "Natsume Sōseki",
     "summary": "A classic Japanese novel exploring the relationship between a young man and an older mentor, focusing on guilt and isolation.",
     "cover": "assets/covers/23fdc6d7a0153133.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/3970410-M.jpg?default=false",
+    "coverSource": "https://covers.openlibrary.org/b/id/1023545-M.jpg?default=false",
     "coverWork": "https://openlibrary.org/works/OL1174972W"
   },
   {
@@ -560,7 +566,7 @@
     "author": "John Irving",
     "summary": "The story of Homer Wells, an orphan raised by an obstetrician who performs illegal abortions, as he seeks his own path.",
     "cover": "assets/covers/fd3cdd9a04fa90bd.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/12369293-M.jpg?default=false",
+    "coverSource": "https://covers.openlibrary.org/b/id/367448-M.jpg?default=false",
     "coverWork": "https://openlibrary.org/works/OL8026340W"
   },
   {
@@ -630,7 +636,10 @@
     "id": "eb50639a0fb56fb5",
     "title": "Half a Life",
     "author": "V.S. Naipaul",
-    "summary": "A man from India moves to London and then Africa, searching for a sense of identity and belonging."
+    "summary": "A man from India moves to London and then Africa, searching for a sense of identity and belonging.",
+    "cover": "assets/covers/eb50639a0fb56fb5.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/5727458-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL103096W"
   },
   {
     "id": "629b8c6638eba579",
@@ -819,7 +828,10 @@
     "id": "8ecc1d5c0929e3fc",
     "title": "Honeymoon to Nowhere",
     "author": "Akitsu Takagi",
-    "summary": "A gritty Japanese noir novel where a honeymooning couple finds themselves embroiled in a deadly crime."
+    "summary": "A gritty Japanese noir novel where a honeymooning couple finds themselves embroiled in a deadly crime.",
+    "cover": "assets/covers/8ecc1d5c0929e3fc.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/814074-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL1933667W"
   },
   {
     "id": "875a1e3fbef7dbb2",
@@ -885,7 +897,10 @@
     "id": "248bfd84df74ef52",
     "title": "Here is New York",
     "author": "E.B. White",
-    "summary": "A classic, lyrical essay written in 1948 that captures the essence and enduring spirit of New York City."
+    "summary": "A classic, lyrical essay written in 1948 that captures the essence and enduring spirit of New York City.",
+    "cover": "assets/covers/248bfd84df74ef52.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/10522526-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL483392W"
   },
   {
     "id": "42f465a38166b74e",
@@ -902,8 +917,8 @@
     "author": "Tom Wolfe",
     "summary": "A biting satire of 1980s New York City high society, justice, and racial politics following a hit-and-run accident.",
     "cover": "assets/covers/94d1232b33492715.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/10548223-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL1925470W"
+    "coverSource": "https://books.google.com/books/content?id=KOrEQgAACAAJ&printsec=frontcover&img=1&zoom=1",
+    "coverWork": "https://books.google.com/books?id=KOrEQgAACAAJ&source=gbs_ViewAPI"
   },
   {
     "id": "f3015675c0f0c01c",
@@ -1050,7 +1065,10 @@
     "id": "b10dd4371810c216",
     "title": "Trading Up",
     "author": "Michael J. Silverstein & Neil Fiske",
-    "summary": "A business book analyzing the trend of middle-market consumers \"trading up\" to premium-priced luxury goods."
+    "summary": "A business book analyzing the trend of middle-market consumers \"trading up\" to premium-priced luxury goods.",
+    "cover": "assets/covers/b10dd4371810c216.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/7102137-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL6039782W"
   },
   {
     "id": "cebff2e159366339",
@@ -1094,14 +1112,17 @@
     "author": "Theodore Dreiser",
     "summary": "The story of a young man's ambition, his entanglement with two women, and the tragic crime that leads to his downfall.",
     "cover": "assets/covers/03187e8c76406e5a.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/12728401-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL100239W"
+    "coverSource": "https://books.google.com/books/content?id=ZHN_zgEACAAJ&printsec=frontcover&img=1&zoom=1",
+    "coverWork": "https://books.google.com/books?id=ZHN_zgEACAAJ&source=gbs_ViewAPI"
   },
   {
     "id": "93c81e3ab5dd03f2",
     "title": "Tepper Isn't Going Out",
     "author": "Calvin Trillin",
-    "summary": "A humorous novel about a man in New York City who finds the perfect parking spot and refuses to move."
+    "summary": "A humorous novel about a man in New York City who finds the perfect parking spot and refuses to move.",
+    "cover": "assets/covers/93c81e3ab5dd03f2.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/227991-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL18720W"
   },
   {
     "id": "40aec64d6d22cc27",
@@ -1676,8 +1697,8 @@
     "author": "Joseph O'Neill",
     "summary": "A man living in post-9/11 New York City finds solace and community through the unlikely sport of cricket.",
     "cover": "assets/covers/0a99f257e9779aac.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/6543663-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL2417638W"
+    "coverSource": "https://books.google.com/books/content?id=x0ZUNwAACAAJ&printsec=frontcover&img=1&zoom=1",
+    "coverWork": "https://books.google.com/books?id=x0ZUNwAACAAJ&source=gbs_ViewAPI"
   },
   {
     "id": "561c3e68cfc88d4e",
@@ -1692,7 +1713,10 @@
     "id": "e72e1cfc3e18345f",
     "title": "The Sun Also Rises",
     "author": "Ernest Hemingway",
-    "summary": "A group of disillusioned American and British expatriates travel from Paris to Pamplona for the running of the bulls."
+    "summary": "A group of disillusioned American and British expatriates travel from Paris to Pamplona for the running of the bulls.",
+    "cover": "assets/covers/e72e1cfc3e18345f.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/78741-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL62979W"
   },
   {
     "id": "6dc8a249064df353",
@@ -1722,7 +1746,10 @@
     "id": "d46b0fc3b511b857",
     "title": "Waiting for the Barbarians",
     "author": "J.M. Coetzee",
-    "summary": "An allegorical novel about an empire's magistrate who begins to question his loyalty as the state prepares for an imaginary invasion."
+    "summary": "An allegorical novel about an empire's magistrate who begins to question his loyalty as the state prepares for an imaginary invasion.",
+    "cover": "assets/covers/d46b0fc3b511b857.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/6984133-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL500388W"
   },
   {
     "id": "2893c31a954f52e3",
@@ -1854,7 +1881,10 @@
     "id": "bf7070aabbbcc8f9",
     "title": "Jimmy Corrigan: The Smartest Kid on Earth",
     "author": "Chris Ware",
-    "summary": "A groundbreaking graphic novel that follows the lonely and desolate life of its protagonist through complex, intricate layouts."
+    "summary": "A groundbreaking graphic novel that follows the lonely and desolate life of its protagonist through complex, intricate layouts.",
+    "cover": "assets/covers/bf7070aabbbcc8f9.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/873630-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL2841431W"
   },
   {
     "id": "6c22b31d6bb75e67",
@@ -1965,7 +1995,10 @@
     "id": "a54a51e4f5a580e7",
     "title": "Cannery Row",
     "author": "John Steinbeck",
-    "summary": "A colorful portrait of the inhabitants of a coastal street in Monterey, California, during the Great Depression."
+    "summary": "A colorful portrait of the inhabitants of a coastal street in Monterey, California, during the Great Depression.",
+    "cover": "assets/covers/a54a51e4f5a580e7.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/100939-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL23199W"
   },
   {
     "id": "e9bcac80c9375c69",
@@ -1998,7 +2031,10 @@
     "id": "665d185b12648e64",
     "title": "Perfect Digital Photography",
     "author": "Jay Dickman & Jay Kinghorn",
-    "summary": "A guide to achieving high-quality results in digital photography through field techniques and post-processing."
+    "summary": "A guide to achieving high-quality results in digital photography through field techniques and post-processing.",
+    "cover": "assets/covers/665d185b12648e64.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/8705127-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL7914136W"
   },
   {
     "id": "e8816a4a8831072f",
@@ -2019,7 +2055,10 @@
     "id": "699bf313632ada06",
     "title": "A Bend in the River",
     "author": "V.S. Naipaul",
-    "summary": "A novel set in a newly independent African country, following an Indian merchant as he navigates political upheaval and social change."
+    "summary": "A novel set in a newly independent African country, following an Indian merchant as he navigates political upheaval and social change.",
+    "cover": "assets/covers/699bf313632ada06.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/8304124-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL103108W"
   },
   {
     "id": "632201624c871f52",
@@ -2052,7 +2091,10 @@
     "id": "aea4663fc1dbb3b0",
     "title": "A House for Mr. Biswas",
     "author": "V.S. Naipaul",
-    "summary": "The tragicomic life story of a man in Trinidad who struggles for independence and to own his own home."
+    "summary": "The tragicomic life story of a man in Trinidad who struggles for independence and to own his own home.",
+    "cover": "assets/covers/aea4663fc1dbb3b0.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/228789-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL103113W"
   },
   {
     "id": "390e3dcd9cc5535e",
@@ -2160,7 +2202,10 @@
     "id": "973eea2699adf4e9",
     "title": "Eating Animals",
     "author": "Jonathan Safran Foer",
-    "summary": "A philosophical and journalistic examination of the ethical and environmental consequences of factory farming and meat consumption."
+    "summary": "A philosophical and journalistic examination of the ethical and environmental consequences of factory farming and meat consumption.",
+    "cover": "assets/covers/973eea2699adf4e9.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/8082620-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL17798893W"
   },
   {
     "id": "0a038704bdcc0adf",
@@ -2378,8 +2423,8 @@
     "author": "Tom Rachman",
     "summary": "A series of interconnected stories following the staff and readers of an English-language newspaper based in Rome.",
     "cover": "assets/covers/6545ec18f4834291.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/7137625-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL15440545W"
+    "coverSource": "https://books.google.com/books/content?id=TGZes8DivFYC&printsec=frontcover&img=1&zoom=1",
+    "coverWork": "https://books.google.com/books?id=TGZes8DivFYC&source=gbs_ViewAPI"
   },
   {
     "id": "c0eea34e6df91841",
@@ -2421,7 +2466,10 @@
     "id": "7dff650f9e02488e",
     "title": "The Expectant Father",
     "author": "Armin Brott & Jennifer Ash",
-    "summary": "A practical and reassuring guide for men on what to expect during pregnancy and their partner's journey to motherhood."
+    "summary": "A practical and reassuring guide for men on what to expect during pregnancy and their partner's journey to motherhood.",
+    "cover": "assets/covers/7dff650f9e02488e.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/783993-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL1996928W"
   },
   {
     "id": "f512f828b93519f6",
@@ -2445,7 +2493,10 @@
     "id": "12d840c7404bcffd",
     "title": "How to Have Your Second Child First",
     "author": "Colburn & Sorensen",
-    "summary": "A parenting book for first-time parents with the insights and relaxed approach often acquired by the time they have a second child."
+    "summary": "A parenting book for first-time parents with the insights and relaxed approach often acquired by the time they have a second child.",
+    "cover": "assets/covers/12d840c7404bcffd.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/12476556-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL15075776W"
   },
   {
     "id": "3c68e8bdf2eb83b2",
@@ -2742,7 +2793,10 @@
     "id": "71aebc7fb7494f3b",
     "title": "Charlie and the Chocolate Factory",
     "author": "Roald Dahl",
-    "summary": "Five children win golden tickets to tour the mysterious chocolate factory of the eccentric Willy Wonka."
+    "summary": "Five children win golden tickets to tour the mysterious chocolate factory of the eccentric Willy Wonka.",
+    "cover": "assets/covers/71aebc7fb7494f3b.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/12459564-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL45790W"
   },
   {
     "id": "d64e66971498f032",
@@ -3117,7 +3171,10 @@
     "id": "62adc63ef82e47c3",
     "title": "Harry Potter and the Cursed Child",
     "author": "J.K. Rowling, Jack Thorne, & John Tiffany",
-    "summary": "A stage play set nineteen years after the events of the original series, following Harry's son, Albus."
+    "summary": "A stage play set nineteen years after the events of the original series, following Harry's son, Albus.",
+    "cover": "assets/covers/62adc63ef82e47c3.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/8763851-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL17360811W"
   },
   {
     "id": "b93a77c4ed0be586",
@@ -3477,7 +3534,10 @@
     "id": "f7603ae34fc9eb22",
     "title": "Bulgaria: Cultures and Customs",
     "author": "Juliana Tzvetkova",
-    "summary": "A comprehensive guide to the history, traditions, and contemporary life of Bulgaria."
+    "summary": "A comprehensive guide to the history, traditions, and contemporary life of Bulgaria.",
+    "cover": "assets/covers/f7603ae34fc9eb22.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/14609342-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL20005275W"
   },
   {
     "id": "22a5a969811ec723",
@@ -3690,7 +3750,10 @@
     "id": "a1e0061bb1b06af8",
     "title": "Istanbul: Memories and the City",
     "author": "Orhan Pamuk",
-    "summary": "The Nobel Prize-winning author explores his childhood in 1950s-60s Istanbul, weaving personal history with the city's rich cultural tapestry and its fading Ottoman heritage."
+    "summary": "The Nobel Prize-winning author explores his childhood in 1950s-60s Istanbul, weaving personal history with the city's rich cultural tapestry and its fading Ottoman heritage.",
+    "cover": "assets/covers/a1e0061bb1b06af8.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/8310170-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL1019596W"
   },
   {
     "id": "4289908fb5af4807",
@@ -3720,13 +3783,21 @@
     "id": "25e7698955129580",
     "title": "Maintenance: Of Everything",
     "author": "Stewart Brand",
-    "summary": "A wide-ranging argument for the value of maintaining, repairing, and adapting the built and natural world, treating upkeep as essential to civilization rather than as an afterthought."
+    "summary": "A wide-ranging argument for the value of maintaining, repairing, and adapting the built and natural world, treating upkeep as essential to civilization rather than as an afterthought.",
+    "cover": "assets/covers/25e7698955129580.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/15227296-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL38659333W"
   },
   {
     "id": "dfeda39e6f5a5588",
-    "title": "The Shadow Land [re-read]",
+    "title": "The Shadow Land",
     "author": "Elizabeth Kostova",
-    "summary": "A young American woman in Bulgaria gets caught up in a decades-old mystery involving a hidden past and a violin."
+    "summary": "A young American woman in Bulgaria gets caught up in a decades-old mystery involving a hidden past and a violin.",
+    "sourceTitle": "The Shadow Land [re-read]",
+    "reread": true,
+    "cover": "assets/covers/244faf9e4dfa9fc4.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/13114842-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL33035730W"
   },
   {
     "id": "23e6f7fca88662db",
@@ -3745,9 +3816,14 @@
   },
   {
     "id": "53c4aca9dc2012ff",
-    "title": "Bulgaria: Cultures and Customs [re-read]",
+    "title": "Bulgaria: Cultures and Customs",
     "author": "Juliana Tzvetkova",
-    "summary": "A comprehensive guide to the history, traditions, and contemporary life of Bulgaria."
+    "summary": "A comprehensive guide to the history, traditions, and contemporary life of Bulgaria.",
+    "sourceTitle": "Bulgaria: Cultures and Customs [re-read]",
+    "reread": true,
+    "cover": "assets/covers/53c4aca9dc2012ff.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/14609342-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL20005275W"
   },
   {
     "id": "67c201fcabf26262",

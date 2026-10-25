@@ -3,6 +3,7 @@
 import argparse, concurrent.futures, hashlib, html, json, re, time, urllib.request, urllib.parse
 from pathlib import Path
 from datetime import datetime, timezone
+from export import export_browser_data
 ROOT = Path(__file__).resolve().parents[1]
 def get(url):
     req = urllib.request.Request(url, headers={'User-Agent':'PersonalBookshelf/1.0 (static reading archive)'})
@@ -14,7 +15,9 @@ def parse(source):
         if len(cells)<3 or not cells[1] or not cells[2]: continue
         title,author=cells[1:3]
         key=hashlib.sha256((title+'\0'+author).encode()).hexdigest()[:16]
-        books.append(dict(id=key,title=title,author=author,summary=cells[3] if len(cells)>3 else ''))
+        book=dict(id=key,title=re.sub(r'\s*\[re-read\]', '', title, flags=re.I).strip(),author=author,summary=cells[3] if len(cells)>3 else '')
+        if book['title'] != title: book.update(sourceTitle=title,reread=True)
+        books.append(book)
     if not books: raise ValueError('No book table found; existing data was not changed.')
     return books
 
@@ -65,5 +68,6 @@ def main():
                 books[i]=b
                 if i%10==0: save();print(f'Processed {i+1}/{len(books)}',flush=True)
         save()
+    export_browser_data()
     print(f"Saved {len(books)} books; {sum(bool(b.get('cover')) for b in books)} local covers.")
 if __name__=='__main__': main()

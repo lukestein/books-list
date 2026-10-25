@@ -21,9 +21,12 @@ jobs:
       - uses: actions/configure-pages@v5
       - name: Prepare static files
         run: |
+          python3 scripts/export.py
           mkdir _site
           cp index.html style.css app.js _site/
-          cp -r assets data _site/
+          cp -r assets _site/
+          mkdir _site/data
+          cp data/books.json data/books.js _site/data/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

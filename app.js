@@ -1,5 +1,6 @@
 (() => {
   const books = window.BOOKS || [];
+  document.querySelector('#updated-month').textContent = window.LIBRARY_META?.updatedMonth || 'October 2026';
   const grid = document.querySelector('#books');
   const input = document.querySelector('#search');
   const count = document.querySelector('#count');
@@ -18,9 +19,16 @@
       img.addEventListener('load', () => { fallback.hidden = true; });
       img.addEventListener('error', () => { img.remove(); fallback.hidden = false; }); cover.append(img);
     }
+    const number = document.createElement('span'); number.className = 'book-number';
+    number.textContent = String(i + 1); number.setAttribute('aria-label', `Book ${i + 1}`);
     const title = document.createElement('h2'); title.textContent = book.title;
+    if (book.reread) {
+      const marker = document.createElement('sup'); marker.className = 'reread';
+      const link = document.createElement('a'); link.href = '#reread-note'; link.textContent = '*'; link.setAttribute('aria-label', 'Re-read; see note');
+      marker.append(link); title.append(marker);
+    }
     const author = document.createElement('p'); author.className = 'author'; author.textContent = book.author;
-    li.append(cover, title, author);
+    li.append(cover, number, title, author);
     return { li, text: normalize(`${book.title} ${book.author}`) };
   });
   grid.append(...nodes.map(n => n.li));
