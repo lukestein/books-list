@@ -4,6 +4,7 @@
   const grid = document.querySelector('#books');
   const input = document.querySelector('#search');
   const count = document.querySelector('#count');
+  const clearButton = document.querySelector('#clear-search');
   const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
   const palette = ['#40564c', '#97543d', '#3d5365', '#807147', '#6d4851', '#575c43'];
   const nodes = books.map((book, i) => {
@@ -25,9 +26,20 @@
     if (book.reread) {
       const marker = document.createElement('sup'); marker.className = 'reread';
       const link = document.createElement('a'); link.href = '#reread-note'; link.textContent = '*'; link.setAttribute('aria-label', 'Re-read; see note');
-      marker.append(link); title.append(marker);
+      const lastSpace = book.title.lastIndexOf(' ');
+      title.textContent = book.title.slice(0, lastSpace + 1);
+      const ending = document.createElement('span'); ending.className = 'title-ending';
+      ending.textContent = book.title.slice(lastSpace + 1);
+      marker.append(link); ending.append(marker); title.append(ending);
     }
-    const author = document.createElement('p'); author.className = 'author'; author.textContent = book.author;
+    const author = document.createElement('p'); author.className = 'author';
+    const authorButton = document.createElement('button'); authorButton.type = 'button'; authorButton.textContent = book.author;
+    authorButton.setAttribute('aria-label', `Filter books by ${book.author}`);
+    authorButton.addEventListener('click', () => {
+      input.value = book.author; filter();
+      document.querySelector('.toolbar').scrollIntoView({ block: 'start' });
+    });
+    author.append(authorButton);
     li.append(cover, number, title, author);
     return { li, text: normalize(`${book.title} ${book.author}`) };
   });
@@ -36,11 +48,14 @@
     const terms = normalize(input.value).split(' ').filter(Boolean);
     let visible = 0;
     for (const node of nodes) { node.li.hidden = !terms.every(term => node.text.includes(term)); if (!node.li.hidden) visible++; }
-    count.textContent = terms.length ? `${visible} of ${books.length} books` : `${books.length} books on the shelf`;
+    count.textContent = terms.length ? `${visible} of ${books.length} books` : `${books.length} books`;
+    clearButton.hidden = input.value.length === 0;
     document.querySelector('#empty').hidden = visible !== 0;
   }
   input.addEventListener('input', filter);
-  document.querySelector('#reset').addEventListener('click', () => { input.value = ''; filter(); input.focus(); });
+  function clearSearch() { input.value = ''; filter(); input.focus({ preventScroll: true }); }
+  clearButton.addEventListener('click', clearSearch);
+  document.querySelector('#reset').addEventListener('click', clearSearch);
   input.addEventListener('keydown', event => { if (event.key === 'Escape') { input.value = ''; filter(); } });
   filter();
 })();

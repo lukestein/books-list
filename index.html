@@ -16,11 +16,11 @@
 </header>
 <main>
 <section id="library" aria-label="Book collection">
-<div class="toolbar"><p id="count" role="status" aria-live="polite"></p><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search books by title or author</span><input id="search" type="search" autocomplete="off"></label></div>
+<div class="toolbar"><p id="count" role="status" aria-live="polite"></p><div class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><label class="sr-only" for="search">Search books by title or author</label><input id="search" type="search" autocomplete="off"><button id="clear-search" type="button" aria-label="Clear search" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div></div>
 <ul class="gallery" id="books"></ul><div id="empty" hidden><h2>No books found.</h2><p>Try another title or author.</p><button id="reset" type="button">Clear search</button></div>
 <noscript><p>Enable JavaScript to browse and search the collection, or <a href="data/books.json">view the book list</a>.</p></noscript>
 </section>
 </main>
-<footer><p id="reread-note">* A re-read.</p><p>Cover images from <a href="https://openlibrary.org/">Open Library</a>, <a href="https://books.google.com/">Google Books</a>, publishers, and a personal Calibre library.</p></footer>
+<footer><p id="reread-note">* Re-read.</p><p>Cover images from <a href="https://openlibrary.org/">Open Library</a>, <a href="https://books.google.com/">Google Books</a>, publishers, and a personal Calibre library.</p></footer>
 </div>
 </body></html>
