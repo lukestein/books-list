@@ -3581,7 +3581,7 @@
     "author": "Taffy Brodesser-Akner",
     "summary": "A sprawling family saga following the descendants of a man who was kidnapped and the lasting impact on their lives.",
     "cover": "assets/covers/ca3b5db28fcbb52e.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/10696335-M.jpg?default=false",
+    "coverSource": "User-provided download OIP-492133097.jpg; original image source unknown",
     "coverWork": "https://openlibrary.org/works/OL22443995W"
   },
   {
@@ -3615,7 +3615,9 @@
     "id": "43325ea8874a98eb",
     "title": "The Memory Palace",
     "author": "Nate DiMeo",
-    "summary": "A collection of historical vignettes and stories based on the author's popular and evocative podcast."
+    "summary": "A collection of historical vignettes and stories based on the author's popular and evocative podcast.",
+    "cover": "assets/covers/43325ea8874a98eb.jpg",
+    "coverSource": "User-provided download OIP-2531957118.jpg; original image source unknown"
   },
   {
     "id": "c1688f7ed4561dc2",
@@ -3684,7 +3686,9 @@
     "id": "f38e9f52a21992ee",
     "title": "House of Huawei",
     "author": "Eva Dou",
-    "summary": "A deeply reported account of the rise and global influence of the Chinese telecommunications giant Huawei."
+    "summary": "A deeply reported account of the rise and global influence of the Chinese telecommunications giant Huawei.",
+    "cover": "assets/covers/f38e9f52a21992ee.jpg",
+    "coverSource": "User-provided download OIP-3288691080.jpg; original image source unknown"
   },
   {
     "id": "0fcdf8093a61b4a1",
