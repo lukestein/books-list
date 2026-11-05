@@ -19,6 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Install image optimization dependency
+        run: python3 -m pip install Pillow==12.2.0
       - name: Prepare static files
         run: |
           python3 scripts/export.py
@@ -27,6 +29,7 @@ jobs:
           cp -r assets _site/
           mkdir _site/data
           cp data/books.json data/books.js _site/data/
+          python3 scripts/optimize-covers.py _site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

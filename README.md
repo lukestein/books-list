@@ -1,6 +1,6 @@
 # Luke’s reading list
 
-A quiet, cover-first gallery of books read. One search box filters title and author instantly, including accent-insensitive and mixed title/author searches. Responsive, keyboard accessible, and entirely static. No dependencies, build, API keys, tracking, or runtime network requests are needed. Covers are downloaded into the repository.
+A quiet, cover-first gallery of books read. One search box filters title and author instantly, including accent-insensitive and mixed title/author searches. Responsive, keyboard accessible, and entirely static. The site needs no runtime dependencies, API keys, tracking, or third-party requests. Covers are stored in the repository.
 
 ## View
 
@@ -35,6 +35,10 @@ Commit changed data and covers, then push. To update via an agent, ask it:
 > Refresh the reading room from UPDATED_URL using scripts/refresh.py with --covers. Preserve the existing design and cover overrides. Review unmatched covers and changes in book count, then commit the data and images.
 
 There is no automatic refresh on page load; changes are reviewed and checked into Git.
+
+## Cover optimization on deployment
+
+Original cover files remain unchanged in `assets/covers/`. During GitHub Pages deployment, the workflow installs Pillow and runs `scripts/optimize-covers.py _site` on the copied site: JPEGs larger than 100,000 bytes are downsampled to fit within 600 × 900 pixels and recompressed, but only replaced if the result is smaller. Smaller images are left alone. The same paths are used, so the deployed browser downloads the optimized copies; opening the repository's `index.html` directly still uses the originals. The gallery also lazy-loads most images as they approach the viewport.
 
 ## Covers and corrections
 
