@@ -399,7 +399,10 @@
     "id": "48a63e2d3b106edd",
     "title": "The Reader",
     "author": "Bernhard Schlink",
-    "summary": "A young man in post-WWII Germany discovers that his former older lover was a guard at a Nazi concentration camp."
+    "summary": "A young man in post-WWII Germany discovers that his former older lover was a guard at a Nazi concentration camp.",
+    "cover": "assets/covers/48a63e2d3b106edd.jpg",
+    "coverSource": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f7/The_Reader_cover.jpg/250px-The_Reader_cover.jpg",
+    "coverWork": "https://en.wikipedia.org/wiki/The_Reader"
   },
   {
     "id": "290ad9bbb37b7df3",
@@ -504,7 +507,10 @@
     "id": "b99da691956e1b44",
     "title": "I Am a Cat",
     "author": "Natsume Sōseki",
-    "summary": "A satirical look at Meiji-era Japanese society as observed through the eyes of a cynical, nameless domestic cat."
+    "summary": "A satirical look at Meiji-era Japanese society as observed through the eyes of a cynical, nameless domestic cat.",
+    "cover": "assets/covers/b99da691956e1b44.jpg",
+    "coverSource": "https://cdn11.bigcommerce.com/s-q39b4/images/stencil/original/products/6810/228519/9780804832656.website__13219.1567531778.jpg?c=2",
+    "coverWork": "https://www.tuttlepublishing.com/books-by-country/i-am-a-cat"
   },
   {
     "id": "9f5b9edd272b0cb6",
@@ -897,7 +903,10 @@
     "id": "aec3ab4405cb98c7",
     "title": "The Dante Club",
     "author": "Matthew Pearl",
-    "summary": "In 1865 Boston, a series of murders inspired by Dante's Inferno are investigated by a group of famous poets."
+    "summary": "In 1865 Boston, a series of murders inspired by Dante's Inferno are investigated by a group of famous poets.",
+    "cover": "assets/covers/aec3ab4405cb98c7.jpg",
+    "coverSource": "https://www.matthewpearl.com/dante/assets/dante2.jpg",
+    "coverWork": "https://www.matthewpearl.com/dante/thebook.html"
   },
   {
     "id": "248bfd84df74ef52",
@@ -1065,7 +1074,10 @@
     "id": "2edc05f8d6a0712e",
     "title": "Yoga for People Who Can't Be Bothered to Do It",
     "author": "Geoff Dyer",
-    "summary": "A humorous and cynical travelogue where the author visits spiritual and exotic locations while avoiding actual enlightenment."
+    "summary": "A humorous and cynical travelogue where the author visits spiritual and exotic locations while avoiding actual enlightenment.",
+    "cover": "assets/covers/2edc05f8d6a0712e.jpg",
+    "coverSource": "https://images4.penguinrandomhouse.com/cover/9780307430342",
+    "coverWork": "https://www.penguinrandomhouse.com/books/44373/yoga-for-people-who-cant-be-bothered-to-do-it-by-geoff-dyer/"
   },
   {
     "id": "b10dd4371810c216",
@@ -1251,7 +1263,10 @@
     "id": "5c83e7672355c3c6",
     "title": "Kafka on the Shore",
     "author": "Haruki Murakami",
-    "summary": "Two parallel stories follow a teenage runaway and an elderly man who can talk to cats as their paths converge in a surreal journey."
+    "summary": "Two parallel stories follow a teenage runaway and an elderly man who can talk to cats as their paths converge in a surreal journey.",
+    "cover": "assets/covers/5c83e7672355c3c6.jpg",
+    "coverSource": "https://citylights.com/wp-content/uploads/2026/10/K1oIM8se79JiOxCR91ky4CjhQ6Itz4wBbqOka6MgU8sz5PzXseOvVS21xDqQ3uRXRvz5T6tuWMdD5SBez6orKGhqwCZgVeX8sRmUCY1oMsize640.jpg",
+    "coverWork": "https://citylights.com/literature-from-africa-latin-america-the-middle-east-oceania/kafka-on-the-shore-tr-philip-gabriel/"
   },
   {
     "id": "8b90251a4c92ff9d",
@@ -1410,7 +1425,10 @@
     "id": "2ce9d2508f6fe0d7",
     "title": "Jonathan Livingston Seagull",
     "author": "Richard Bach",
-    "summary": "A fable about a seagull who seeks to push the boundaries of flight and achieve a higher state of being."
+    "summary": "A fable about a seagull who seeks to push the boundaries of flight and achieve a higher state of being.",
+    "cover": "assets/covers/2ce9d2508f6fe0d7.jpg",
+    "coverSource": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781476793313/jonathan-livingston-seagull-9781476793313_hr.jpg",
+    "coverWork": "https://www.simonandschuster.com/books/Jonathan-Livingston-Seagull/Richard-Bach/9781476793313"
   },
   {
     "id": "928dda4171fff194",
@@ -1452,7 +1470,10 @@
     "id": "feef3e20c99cc0eb",
     "title": "Hackers and Painters",
     "author": "Paul Graham",
-    "summary": "A collection of essays on the art and science of programming, startups, and the culture of software development."
+    "summary": "A collection of essays on the art and science of programming, startups, and the culture of software development.",
+    "cover": "assets/covers/feef3e20c99cc0eb.jpg",
+    "coverSource": "https://s.turbifycdn.com/aah/paulgraham/hackers-painters-29.gif",
+    "coverWork": "https://www.paulgraham.com/hackpaint.html"
   },
   {
     "id": "401db963302cc070",
@@ -1539,7 +1560,10 @@
     "id": "2e954c34c1856698",
     "title": "Invisible Cities",
     "author": "Italo Calvino",
-    "summary": "A fictional conversation between Marco Polo and Kublai Khan, where Polo describes fantastic and symbolic cities from his travels."
+    "summary": "A fictional conversation between Marco Polo and Kublai Khan, where Polo describes fantastic and symbolic cities from his travels.",
+    "cover": "assets/covers/2e954c34c1856698.jpg",
+    "coverSource": "https://m.media-amazon.com/images/I/41NICgSDHAL._SY342_.jpg",
+    "coverWork": "https://www.amazon.com/Invisible-Cities-ITALO-CALVINO/dp/0749397640"
   },
   {
     "id": "13dc1be0dd5fe25f",
@@ -1752,7 +1776,10 @@
     "id": "c3d1c07dba155d92",
     "title": "The Sailor Who Fell from Grace with the Sea",
     "author": "Yukio Mishima",
-    "summary": "A group of boys become obsessed with a sailor who abandons his life at sea for their widowed mother, leading to a violent end."
+    "summary": "A group of boys become obsessed with a sailor who abandons his life at sea for their widowed mother, leading to a violent end.",
+    "cover": "assets/covers/c3d1c07dba155d92.jpg",
+    "coverSource": "https://citylights.com/wp-content/uploads/2026/10/j8YW2TbBQ4XLm5qrLJUZnGDe0OBOoFuAr27g8ybj1xXVvooCCdcDudgecAsize640.jpg",
+    "coverWork": "https://citylights.com/literature-from-africa-latin-america-the-middle-east-oceania/sailor-who-fell-from-grace-with-the-sea/"
   },
   {
     "id": "d46b0fc3b511b857",
@@ -2055,7 +2082,10 @@
     "id": "e8816a4a8831072f",
     "title": "The Soloflex Story",
     "author": "Jerry Wilson",
-    "summary": "The business history and marketing success of the Soloflex home exercise machine."
+    "summary": "The business history and marketing success of the Soloflex home exercise machine.",
+    "cover": "assets/covers/e8816a4a8831072f.jpg",
+    "coverSource": "https://m.media-amazon.com/images/I/81f55wwbxBL._SY342_.jpg",
+    "coverWork": "https://www.amazon.com/Soloflex-Story-American-Parable/dp/1439232008"
   },
   {
     "id": "d62ecaa58827414e",
@@ -2310,7 +2340,10 @@
     "id": "de3424b49edcb25b",
     "title": "NLP with Python",
     "author": "Bird, Klein, & Loper",
-    "summary": "A technical guide to natural language processing using the Python programming language and the NLTK library."
+    "summary": "A technical guide to natural language processing using the Python programming language and the NLTK library.",
+    "cover": "assets/covers/de3424b49edcb25b.jpg",
+    "coverSource": "https://m.media-amazon.com/images/I/81Z8Ko9zszL._SY342_.jpg",
+    "coverWork": "https://www.amazon.com/Natural-Language-Processing-Python-Steven/dp/0596516495"
   },
   {
     "id": "e41869b22aedca31",
@@ -2325,7 +2358,10 @@
     "id": "08a70806b42f7732",
     "title": "The Workflow of Data Analysis Using Stata",
     "author": "J. Scott Long",
-    "summary": "A technical guide for researchers on how to manage and organize data analysis projects effectively using Stata."
+    "summary": "A technical guide for researchers on how to manage and organize data analysis projects effectively using Stata.",
+    "cover": "assets/covers/08a70806b42f7732.jpg",
+    "coverSource": "https://www.stata.com/bookstore/bi/wdaus_front.jpg",
+    "coverWork": "https://www.stata.com/bookstore/workflow-data-analysis-stata/"
   },
   {
     "id": "5e09d48cf2eb108b",
