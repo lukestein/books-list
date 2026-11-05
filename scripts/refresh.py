@@ -16,6 +16,7 @@ def parse(source):
         title,author=cells[1:3]
         key=hashlib.sha256((title+'\0'+author).encode()).hexdigest()[:16]
         book=dict(id=key,title=re.sub(r'\s*\[re-read\]', '', title, flags=re.I).strip(),author=author,summary=cells[3] if len(cells)>3 else '')
+        if not cells[0]: book['readingNow']=True
         if book['title'] != title: book.update(sourceTitle=title,reread=True)
         books.append(book)
     if not books: raise ValueError('No book table found; existing data was not changed.')

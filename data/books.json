@@ -2340,7 +2340,10 @@
     "id": "23380083ae00bff6",
     "title": "Structures: Or Why Things Don't Fall Down",
     "author": "J.E. Gordon",
-    "summary": "A classic and accessible introduction to the principles of structural engineering and why things are built the way they are."
+    "summary": "A classic and accessible introduction to the principles of structural engineering and why things are built the way they are.",
+    "cover": "assets/covers/23380083ae00bff6.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/164385-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL4984956W"
   },
   {
     "id": "6e64e61e2df20cfe",
@@ -3872,6 +3875,7 @@
     "title": "The Mysterious Benedict Society",
     "author": "Trenton Lee Stewart",
     "summary": "Four gifted children infiltrate a mysterious school to stop a sinister plot that uses hidden messages to manipulate minds, relying on ingenuity, teamwork, and friendship.",
+    "readingNow": true,
     "cover": "assets/covers/f68c1933d728d922.jpg",
     "coverSource": "https://covers.openlibrary.org/b/id/2378898-M.jpg?default=false",
     "coverWork": "https://openlibrary.org/works/OL5848457W"
@@ -3881,8 +3885,19 @@
     "title": "The Science of Second Chances",
     "author": "Jennifer Doleac",
     "summary": "An evidence-based examination of which criminal justice policies help people rebuild their lives after incarceration, reduce reoffending, and improve public safety.",
+    "readingNow": true,
     "cover": "assets/covers/28d7f07262852230.jpg",
     "coverSource": "Calibre library, book 637, cover.jpg",
     "coverWork": "urn:uuid:3debf02e-55f1-47ee-95d9-b760ce64460d"
+  },
+  {
+    "id": "06ebd5c907cf13d4",
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "summary": "An orphaned girl discovers a hidden garden on her uncle's Yorkshire estate, finding friendship and healing as she brings it back to life.",
+    "readingNow": true,
+    "cover": "assets/covers/06ebd5c907cf13d4.jpg",
+    "coverSource": "https://covers.openlibrary.org/b/id/12622062-M.jpg?default=false",
+    "coverWork": "https://openlibrary.org/works/OL69612W"
   }
 ]

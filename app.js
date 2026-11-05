@@ -22,7 +22,9 @@
       img.addEventListener('error', () => { img.remove(); fallback.hidden = false; }); cover.append(img);
     }
     const number = document.createElement('span'); number.className = 'book-number';
-    number.textContent = String(i + 1); number.setAttribute('aria-label', `Book ${i + 1}`);
+    number.textContent = book.readingNow ? 'Reading now' : String(i + 1);
+    number.setAttribute('aria-label', book.readingNow ? 'Currently reading' : `Book ${i + 1}`);
+    if (book.readingNow) number.classList.add('reading-now');
     const title = document.createElement('h2'); title.textContent = book.title;
     if (book.reread) {
       const marker = document.createElement('sup'); marker.className = 'reread';
