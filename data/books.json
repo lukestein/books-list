@@ -3200,8 +3200,7 @@
     "author": "Elena Ferrante",
     "summary": "The third book in the Neapolitan Quartet, following Elena and Lila as their paths diverge into different worlds.",
     "cover": "assets/covers/e1edda3a992fff59.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/13518415-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL34777467W"
+    "coverSource": "User-provided download OIP-3394177555.jpg; original image source unknown"
   },
   {
     "id": "77e5af5b7b8ca1ca",
@@ -3209,8 +3208,7 @@
     "author": "Elena Ferrante",
     "summary": "The final book in the Neapolitan Quartet, bringing the lifelong saga of Elena and Lila to a close.",
     "cover": "assets/covers/77e5af5b7b8ca1ca.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/13518415-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL34777467W"
+    "coverSource": "User-provided download OIP-3391608897.jpg; original image source unknown"
   },
   {
     "id": "72a4f4f0001b6d8a",
@@ -3272,14 +3270,15 @@
     "author": "E.B. White",
     "summary": "A classic story about the friendship between a pig named Wilbur and a wise spider named Charlotte.",
     "cover": "assets/covers/5e66aafe9a55d7ad.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/4792394-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL483325W"
+    "coverSource": "User-provided download OIP-447756950.jpg; original image source unknown"
   },
   {
     "id": "0f7fd1f797df933a",
     "title": "The Whore of New York",
     "author": "Liara Roux",
-    "summary": "A memoir of the author's experiences working in the sex industry and an exploration of its complex politics and culture."
+    "summary": "A memoir of the author's experiences working in the sex industry and an exploration of its complex politics and culture.",
+    "cover": "assets/covers/0f7fd1f797df933a.jpg",
+    "coverSource": "User-provided download OIP-375206959.jpg; original image source unknown"
   },
   {
     "id": "233cb030a2475832",
@@ -3296,8 +3295,7 @@
     "author": "Colson Whitehead",
     "summary": "A heist novel and social history set in 1960s Harlem, following a furniture salesman who gets drawn into a criminal underworld.",
     "cover": "assets/covers/e5bedcd4bab9eb96.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/10550695-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL24151553W"
+    "coverSource": "User-provided download OIP-3006235862.jpg; original image source unknown"
   },
   {
     "id": "b44ad1d3f3d86597",
@@ -3314,8 +3312,7 @@
     "author": "Grace Lin",
     "summary": "A young girl goes on an epic quest to find the Old Man of the Moon and change her family's fortune.",
     "cover": "assets/covers/21c38753c8bbab2f.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/9269908-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL1913873W"
+    "coverSource": "User-provided download OIP-1390990452.jpg; original image source unknown"
   },
   {
     "id": "adeca092d6c89b80",
@@ -3332,8 +3329,7 @@
     "author": "Colson Whitehead",
     "summary": "A series of evocative and rhythmic sketches capturing the many different moods and facets of New York City.",
     "cover": "assets/covers/fc6b11202793e142.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/6799271-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL15835430W"
+    "coverSource": "User-provided download OIP-2163609078.jpg; original image source unknown"
   },
   {
     "id": "69b7814ff71ccb3e",
@@ -3377,8 +3373,7 @@
     "author": "Colson Whitehead",
     "summary": "A sprawling novel exploring the legend of John Henry and its intersection with a group of cynical modern-day journalists.",
     "cover": "assets/covers/21d038e98f9135ab.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/4290796-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL1822530W"
+    "coverSource": "User-provided download OIP-4004489154.jpg; original image source unknown"
   },
   {
     "id": "f44c1cd4e764ffaa",
@@ -3393,13 +3388,17 @@
     "id": "32fae7e529f62db7",
     "title": "All the Lovers in the Night",
     "author": "Mieko Kawakami",
-    "summary": "A contemplative novel about a solitary woman in her thirties who begins to find connection and meaning through her relationships."
+    "summary": "A contemplative novel about a solitary woman in her thirties who begins to find connection and meaning through her relationships.",
+    "cover": "assets/covers/32fae7e529f62db7.jpg",
+    "coverSource": "User-provided download OIP-3335802822.jpg; original image source unknown"
   },
   {
     "id": "b3a898108be12551",
     "title": "The Least of Us",
     "author": "Sam Quinones",
-    "summary": "An investigation into the next phase of the opioid epidemic, focusing on the rise of synthetic drugs and the search for community."
+    "summary": "An investigation into the next phase of the opioid epidemic, focusing on the rise of synthetic drugs and the search for community.",
+    "cover": "assets/covers/b3a898108be12551.jpg",
+    "coverSource": "User-provided download OIP-1324504949.jpg; original image source unknown"
   },
   {
     "id": "99a229e854efaf6b",
@@ -3423,7 +3422,9 @@
     "id": "e161e79a5ff22107",
     "title": "The 99% Invisible City",
     "author": "Roman Mars & Kurt Kohlstedt",
-    "summary": "A guide to the hidden and fascinating design of the modern city, based on the popular podcast."
+    "summary": "A guide to the hidden and fascinating design of the modern city, based on the popular podcast.",
+    "cover": "assets/covers/e161e79a5ff22107.jpg",
+    "coverSource": "User-provided download OIP-1683562945.jpg; original image source unknown"
   },
   {
     "id": "91f0ed3fe37a2781",
@@ -3438,7 +3439,9 @@
     "id": "0fc1b136bb3090f0",
     "title": "Inciting Joy",
     "author": "Ross Gay",
-    "summary": "A collection of essays exploring the relationship between joy and sorrow, and how sharing vulnerabilities creates connection."
+    "summary": "A collection of essays exploring the relationship between joy and sorrow, and how sharing vulnerabilities creates connection.",
+    "cover": "assets/covers/0fc1b136bb3090f0.jpg",
+    "coverSource": "User-provided download OIP-972567660.jpg; original image source unknown"
   },
   {
     "id": "bbafaf366e8cb890",
@@ -3500,8 +3503,7 @@
     "author": "John Berger",
     "summary": "A reflective and beautifully illustrated book about the author's experience of undergoing cataract surgery and how it changed his vision.",
     "cover": "assets/covers/c19044a795eb65fc.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/10478436-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL22575849W"
+    "coverSource": "User-provided download OIP-2719071914.jpg; original image source unknown"
   },
   {
     "id": "3190ab6e9a5cce12",
@@ -3536,8 +3538,7 @@
     "author": "Laura Ingalls Wilder",
     "summary": "Laura begins her life as a teacher and her relationship with Almanzo Wilder deepens toward marriage.",
     "cover": "assets/covers/440d40104d836e84.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/5082694-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL1719702W"
+    "coverSource": "User-provided download OIP-1530592071.jpg; original image source unknown"
   },
   {
     "id": "4c18041f252f5836",
@@ -3554,8 +3555,7 @@
     "author": "Claire Keegan",
     "summary": "A brief and powerful novel set in a small Irish town in 1985, exploring themes of morality, complicity, and individual courage.",
     "cover": "assets/covers/bc89f22d03754e51.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/10507091-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL23020966W"
+    "coverSource": "User-provided download OIP-4231806986.jpg; original image source unknown"
   },
   {
     "id": "fac524666d22f38e",
@@ -3697,8 +3697,7 @@
     "author": "Georgi Gospodinov",
     "summary": "A novel imagining a clinic that offers \"time shelter\" for Alzheimer's patients by recreating the decades of their past.",
     "cover": "assets/covers/2e6563d6a78d2d76.jpg",
-    "coverSource": "https://covers.openlibrary.org/b/id/13125096-M.jpg?default=false",
-    "coverWork": "https://openlibrary.org/works/OL26340341W"
+    "coverSource": "User-provided download OIP-1771422036.jpg; original image source unknown"
   },
   {
     "id": "c05e86b60232aeaa",
